@@ -1,59 +1,55 @@
-## Computational Neuroscience Mini-Projects 
+# 🧠 Computational Neuroscience Mini-Projects (BCS304)
 
-This repository showcases a series of mini-projects developed during the Theoretical Neuroscience course at KAIST. The projects explore mathematical and computational models of neural activity — from single-neuron dynamics to sensory coding and decision-making — using tools from differential equations, stochastic modeling, and information theory.
+This repository contains a series of mini-projects developed as part of the *Theoretical Neuroscience* course at KAIST. The goal is to understand the computational principles behind neural systems — from single-neuron dynamics to decision-making — using mathematical modeling, simulation, and data analysis.
 
-## 🧩 Topics Covered
-Each project investigates a key concept in computational neuroscience:
+---
 
-🔌 Neuron Modeling
-Simulations of Izhikevich, Leaky Integrate-and-Fire (LIF), and Hodgkin–Huxley models.
+## 🧩 Project Topics
 
-📊 Neural Coding & Information Theory
-Spike train generation, entropy, Fano factor, and spike count variability.
+Each project focuses on a key concept in computational neuroscience:
 
-🔁 Synaptic Plasticity
-Implementation of Spike-Timing-Dependent Plasticity (STDP) rules.
+- 🔌 **Neuron Modeling**  
+  Izhikevich, Leaky Integrate-and-Fire (LIF), and Hodgkin–Huxley models.
 
-🧠 Neural Network Dynamics
-Synchronization, noise-driven dynamics, and coupled LIF neurons.
+- 📊 **Neural Coding & Information Theory**  
+  Poisson spike trains, entropy, Fano factor, spike pattern statistics.
 
-👁️ Receptive Fields & Reverse Correlation
-Gabor filter generation and receptive field reconstruction.
+- 🔁 **Synaptic Plasticity**  
+  Spike-Timing-Dependent Plasticity (STDP) and learning rules.
 
-🧮 Decision Making Models
-Neural accumulation models and ROC curve analysis.
+- 🌐 **Neural Network Dynamics**  
+  Coupled neurons, noise effects, synchronization.
 
-## 🗂️ Project Structure
-The repository is divided into themed folders:
+- 👁️ **Receptive Fields**  
+  Gabor filters and reverse correlation for visual stimuli.
 
-Folder	Description
-project1/	LIF model: firing rate, noise effects, response functions
-project2/	Hodgkin-Huxley dynamics, spike timing, coupled neurons
-project3/	Neural response to stimuli, ROC curve, decision modeling
-project4/	Entropy analysis, Poisson vs exponential coding schemes
-midterm_project/	Poisson spike trains, Fano factor, Gabor receptive fields
-Final_project/	Advanced Izhikevich simulations, STDP, spike pattern clustering, perceptron
+- 🧮 **Decision Making**  
+  Signal detection theory, ROC curves, accumulation models.
 
-Each folder contains:
+---
 
-📄 Report: Problem statement, methods, results, and interpretation
+## 📂 Project Structure
 
-## 🧮 Code: MATLAB .m files for simulations and plots
+Each folder contains MATLAB code and a report summarizing the methodology and results.
 
-🚀 Technologies & Tools
-MATLAB for all simulations and data analysis
+<details>
+<summary><strong>Click to view folder breakdown</strong></summary>
 
-Numerical ODE solvers, stochastic processes, and information metrics
+| Folder              | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| `project1/`         | LIF neuron: firing rate, response to input, effects of noise                |
+| `project2/`         | Hodgkin–Huxley model, spike detection, coupled neuron analysis              |
+| `project3/`         | Stimulus-response, ROC curve, decision-making models                        |
+| `project4/`         | Entropy of spike trains, Poisson vs exponential coding                      |
+| `midterm_project/`  | Poisson processes, Fano factor, Gabor receptive field estimation            |
+| `Final_project/`    | Izhikevich neuron, STDP learning, spike pattern clustering, perceptron      |
 
-Visualization of neural activity and receptive fields
+</details>
 
-📎 Related Skills
-These projects reflect applied skills in:
+---
 
-Differential equations & biological modeling
+## 🚀 How to Run
 
-Information theory & neural data analysis
-
-Neural network simulation
-
-Decision theory and signal detection
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
