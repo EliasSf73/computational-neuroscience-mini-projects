@@ -1,8 +1,8 @@
-🧠 Computational Neuroscience Mini-Projects 
+## Computational Neuroscience Mini-Projects 
 
 This repository showcases a series of mini-projects developed during the Theoretical Neuroscience course at KAIST. The projects explore mathematical and computational models of neural activity — from single-neuron dynamics to sensory coding and decision-making — using tools from differential equations, stochastic modeling, and information theory.
 
-🧩 Topics Covered
+## 🧩 Topics Covered
 Each project investigates a key concept in computational neuroscience:
 
 🔌 Neuron Modeling
@@ -23,7 +23,7 @@ Gabor filter generation and receptive field reconstruction.
 🧮 Decision Making Models
 Neural accumulation models and ROC curve analysis.
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 The repository is divided into themed folders:
 
 Folder	Description
@@ -38,7 +38,7 @@ Each folder contains:
 
 📄 Report: Problem statement, methods, results, and interpretation
 
-🧮 Code: MATLAB .m files for simulations and plots
+## 🧮 Code: MATLAB .m files for simulations and plots
 
 🚀 Technologies & Tools
 MATLAB for all simulations and data analysis
