@@ -1,4 +1,5 @@
-🧠 Computational Neuroscience Mini-Projects (BCS304)
+🧠 Computational Neuroscience Mini-Projects 
+
 This repository showcases a series of mini-projects developed during the Theoretical Neuroscience course at KAIST. The projects explore mathematical and computational models of neural activity — from single-neuron dynamics to sensory coding and decision-making — using tools from differential equations, stochastic modeling, and information theory.
 
 🧩 Topics Covered
